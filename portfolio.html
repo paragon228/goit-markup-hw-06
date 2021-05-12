@@ -15,41 +15,42 @@
 
 <body>
     <header class="page-header">
-        <div class="container main-nav">
-                <nav class="navigation">
-                    <a class="link-page" href="./index.html">
-                        <span class="accent">Web</span>Studio
-                    </a>
-                    <ul class="site-nav list">
-                        <li class="site-nav-item"><a href="./index.html" class="link">Студия</a></li>
-                        <li class="site-nav-item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-                        <li class="site-nav-item"><a href="" class="link">Контакты</a></li>
-                    </ul>
-                </nav>
-            <ul class="site-contacts list">
-                <li class="header-item">
-                    <a class="link" href="mailto:info@example.com">
+        <div class="container main-nav ">
+            <nav class="navigation">
+            <a class="link-page page-header__link-page" href="./index.html">
+                <span class="accent">Web</span>Studio
+            </a>
+                <ul class="site-nav list">
+                    <li class="site-nav__item site-nav__site-nav__item"><a href="./index.html" class="link site-nav__link">Студия</a></li>
+                    <li class="site-nav__item site-nav__site-nav__item"><a href="./portfolio.html" class="link site-nav__link site-nav__link--current">Портфолио</a></li>
+                    <li class="site-nav__item site-nav__site-nav__item"><a href="" class="link site-nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+                <ul class="list site-contacts main-nav__site-contacts">
+                    <li class="header-item">
+                        <a class="link site-contacts__link" href="mailto:info@example.com" >
                         <svg class="icon-svg" width="16px" height="12px">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a>
-                </li>
-                <li class="header-item">
-                    <a class="link" href="tell:+380991111111">
+                    </li>
+                    <li class="header-item">
+                        <a class="link site-contacts__link" href="tell:+380991111111" >
                         <svg class="icon-svg" width="10px" height="16px">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a>
-                </li>
-            </ul>
+                    </li>
+                </ul>
         </div>
     </header>
+
     <main>
         
     <section class="site-options section">
         <div class="container">
             <h1 class="ghost">Услуги и набор приложений</h1>
-            <div class="conteiner-menu">
+            <div class="conteiner-menu site-options__conteiner-menu">
                 <ul class="options list">
                     <li class="options-item"><button class="secondary-button" type="button">Все</button></li>
                     <li class="options-item"><button class="secondary-button" type="button">Веб-сайты</button></li>
@@ -210,37 +211,37 @@
     
                     <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
                     <ul class="site-contacts list">
-                        <li class="contacts-item"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-                        <li class="contacts-item"><a href="tell:+380991111111" class="link">+38 099 111 11 11</a></li>
+                        <li class="contacts-item"><a href="mailto:info@example.com" class="link site-contacts__link">info@example.com</a></li>
+                        <li class="contacts-item"><a href="tell:+380991111111" class="link site-contacts__link">+38 099 111 11 11</a></li>
                     </ul>
                 </div>
                 <div class="appeal positive">
                     <h6 class="appeal-text">присоединяйтесь</h6>
-                    <ul class="list social-icons">
-                        <li class="social-icons-item">
+                    <ul class="list social-icons appeal__social-icons">
+                        <li class="social-icons__item">
                             <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="icon">
+                                <svg class="icon social-icons__icon appeal__social-icons__icon">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-icons-item">
+                        <li class="social-icons__item">
                             <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="icon">
+                                <svg class="icon social-icons__icon appeal__social-icons__icon">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-icons-item">
+                        <li class="social-icons__item">
                             <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="icon">
+                                <svg class="icon social-icons__icon appeal__social-icons__icon">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-icons-item">
+                        <li class="social-icons__item">
                             <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="icon">
+                                <svg class="icon social-icons__icon appeal__social-icons__icon">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -251,7 +252,7 @@
                     <h6 class="appeal-text">Подпишитесь на рассылку</h6>
                     <form class="footer-form">
                         <input class="footer-field" type="text" name="E-mail" placeholder="E-mail">
-                        <button class="button" type="submit">Подписаться
+                        <button class="button mailing__button" type="submit">Подписаться
                             <svg class="subscribe">
                                 <use href="./images/icons.svg#icon-icon-send"></use>
                             </svg>
